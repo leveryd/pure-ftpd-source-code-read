@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pure_ftpd_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pure_ftpd_master">
+				<Option output="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/pure_ftpd_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src"/>
+					<Add directory="/Users/dongguangli/Downloads/pure-ftpd-master/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 pure_ftpd_master"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pure_ftpd_master/fast">
+				<Option output="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/pure_ftpd_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src"/>
+					<Add directory="/Users/dongguangli/Downloads/pure-ftpd-master/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 pure_ftpd_master/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/dongguangli/Downloads/pure-ftpd-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/example_read.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/example_write.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/puredb_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/puredb_read.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/puredb_read.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/puredb_write.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/puredb_write.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/puredb/src/regression.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/alt_arc4random.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/alt_arc4random.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/altlog.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/altlog.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bonjour.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bonjour.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-getopt_long.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-getopt_long.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-glob.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-glob.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-realpath.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/bsd-realpath.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/caps.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/caps.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/caps_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/crypto.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/crypto.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/daemons.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/diraliases.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/diraliases.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/dynamic.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/dynamic.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/fakechroot.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/fakechroot.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/fakesnprintf.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/fakesnprintf.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftp_parser.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpd.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpd.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpd_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpwho-read.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpwho-read.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpwho-update.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpwho-update.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ftpwho-update_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/getloadavg.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/getloadavg.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/globals.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ipstack.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ipstack.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_extauth.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_extauth.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_extauth_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_ldap.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_ldap.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_ldap_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_mysql.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_mysql.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_mysql_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_pam.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_pam.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_pgsql.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_pgsql.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_pgsql_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_puredb.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_puredb.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_unix.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/log_unix.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ls.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ls_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/main.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_cs_cz.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_da.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_de.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_en.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_es.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_fr.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_fr_funny.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_hu.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_it.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_kr.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_nl.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_no.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_pl.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_pt_br.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_ro.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_ru.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_sk.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_sq.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_sv.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_tr.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_zh_cn.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/messages_zh_tw.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/mysnprintf.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/mysnprintf.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/parser.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/parser.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/parser_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/privsep.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/privsep.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/privsep_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/ptracetest.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-authd.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-authd_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-certd.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-certd_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-ftpwho.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-mrtginfo.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-pw.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-pw.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-pwconvert.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-quotacheck.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-statsdecode.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-uploadscript.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/pure-uploadscript_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/quotas.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/quotas.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/safe_rw.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/safe_rw.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/simpleconf.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/simpleconf.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/simpleconf_ftpd.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/syslognames.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/tls.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/tls.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/tls_extcert.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/tls_extcert.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/tls_extcert_p.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/upload-pipe.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/upload-pipe.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/utils.c">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/src/utils.h">
+			<Option target="pure_ftpd_master"/>
+		</Unit>
+		<Unit filename="/Users/dongguangli/Downloads/pure-ftpd-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
